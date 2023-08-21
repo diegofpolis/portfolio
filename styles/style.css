@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-um: #000000;
+    --cor--dois: #f6f6f6;
+    --cor-tres: #22d4fd;
+    --cor-hover: #272727;
+    --fonte-um: 'Krona One', sans-serif;
+    --fonte-dois: 'Montserrat', sans-serif;
+    --fonte-24px: 1.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-um);
+    color: var(--cor--dois);
+    font-size: var(--fonte-24px);
+}
+
+.cabecalho {
+    padding: 2% 0 0 5%;
+    
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 40px
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-dois);
+    font-size: var(--fonte-24px); 
+    font-weight: 600;
+    color: var(--cor-tres);
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+    
+}
+
+.container__conteudo {
+    display: flex;
+    width: 50%;
+    flex-direction: column; 
+    gap: 40px;
+}
+
+.container__conteudo__titulo {
+    font-size: 2rem;
+    font-family: var(--fonte-um);
+}
+
+.destaque__titulo{
+    color:var(--cor-tres);
+}
+
+.container__conteudo__texto {
+    font-family: var(--fonte-dois);
+    font-weight: 400;
+}
+
+.container__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__links__subtitulo {
+    font-family: var(--fonte-um);
+    font-size: var(--fonte-24px);
+    font-weight: 400;
+}
+
+.container__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border: 2px solid var(--cor-tres);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: var(--fonte-24px);
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor--dois);
+    font-weight: 600;
+}
+
+.container__links__navegacao:hover {
+    background-color: var(--cor-hover);
+    padding: 3%;
+}
+
+.rodape {
+    background-color: var(--cor-tres);
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fonte-dois);
+    font-weight: 600;
+    color: var(--cor-um);
+}

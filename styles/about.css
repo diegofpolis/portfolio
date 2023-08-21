@@ -1,0 +1,48 @@
+
+@import url("./style.css");
+
+body {
+    box-sizing: border-box;
+}
+.container__imagem__about{
+    text-align: center;
+    padding: 3%;
+}
+
+.imagem__perfil {
+    border-radius: 100%;
+}
+
+.container__titulo{
+    font-family: var(--fonte-um);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--cor-tres);
+}
+
+.container__about {
+    margin: 4%;
+    
+}
+
+.container__corriculo {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.container__subtitulo {
+    font-family: var(--fonte-um);
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: var(--cor-tres);
+}
+
+.container__texto {
+    font-family: var(--fonte-dois);
+
+}
+
+.container__subtitulo__lista {
+    list-style-position: inside;
+}
