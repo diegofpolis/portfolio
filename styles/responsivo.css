@@ -20,7 +20,7 @@
     }
 }
 
-@media (max-width: 1366px) {
+@media (min-width: 1300px) {
     .portfolios {
         gap: 10px;
     }
