@@ -19,3 +19,10 @@
        width: auto; 
     }
 }
+
+@media (max-width: 1366px) {
+    .portfolios {
+        gap: 16px;
+        
+    }
+}
