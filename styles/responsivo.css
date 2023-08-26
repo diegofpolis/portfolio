@@ -22,7 +22,6 @@
 
 @media (max-width: 1366px) {
     .portfolios {
-        gap: 16px;
-        
+        gap: 14px;
     }
 }
