@@ -1,9 +1,7 @@
 
 @import url("./style.css");
 
-body {
-    box-sizing: border-box;
-}
+
 .container__imagem__about{
     text-align: center;
     padding: 3%;
@@ -40,7 +38,11 @@ body {
 
 .container__texto {
     font-family: var(--fonte-dois);
+    text-align: initial;
 
+}
+.paragrafo {
+    text-indent: 50px;
 }
 
 .container__subtitulo__lista {

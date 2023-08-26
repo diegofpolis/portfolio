@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-um: #000000;
+    --cor-um: #15212a;
     --cor--dois: #f6f6f6;
     --cor-tres: #22d4fd;
+    --cor-quatro: #038bbb;
     --cor-hover: #272727;
     --fonte-um: 'Krona One', sans-serif;
     --fonte-dois: 'Montserrat', sans-serif;
@@ -45,6 +46,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 2% 5%;
+    gap: 50px
     
 }
 
@@ -72,6 +74,7 @@ body{
 .container__links {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
@@ -102,11 +105,17 @@ body{
     padding: 3%;
 }
 
+.container__imagem {
+    width: 50%;
+    border-radius: 8px;
+}
+
 .rodape {
-    background-color: var(--cor-tres);
+    background-color: var(--cor-quatro);
     padding: 20px;
     text-align: center;
     font-family: var(--fonte-dois);
-    font-weight: 600;
+    font-weight: 400;
     color: var(--cor-um);
 }
+
